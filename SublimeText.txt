@@ -1,8 +1,9 @@
-#comment1
+#var1
 x=22
-#comment2
+#var2
 y=44
 
+#function
 z=x+y
 print (z)
 print (z-x)
