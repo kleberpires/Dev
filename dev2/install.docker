@@ -36,3 +36,34 @@ The Docker service needs to be setup to run at startup. To do so, type in each c
 sudo systemctl start docker
 
 sudo systemctl enable docker
+
+
+
+
+
+DOCKER COMPOSE
+
+
+Download the Docker Compose binary into the /usr/local/bin directory with the following curl command:
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+
+Once the download is complete, apply executable permissions to the Compose binary:
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+
+Verify the installation by running the following command which will display the Compose version:
+
+docker-compose --version
+
+
+
+
+
+
+
+
+
+
